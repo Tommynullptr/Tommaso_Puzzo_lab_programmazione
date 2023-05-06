@@ -1,0 +1,3 @@
+C:/Users/tomma/CLionProjects/Tommaso_Puzzo_lab_programmazione/cmake-build-debug/CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir
+C:/Users/tomma/CLionProjects/Tommaso_Puzzo_lab_programmazione/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tomma/CLionProjects/Tommaso_Puzzo_lab_programmazione/cmake-build-debug/CMakeFiles/rebuild_cache.dir
