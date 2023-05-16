@@ -7,13 +7,14 @@
 
 
 #include "Chat.h"
+#include <vector>
 
 
 class ChatLog {
 
 private:
-    //smart pointer to list head of chats
-    unique_ptr<Chat> chats;
+
+    vector<Chat> chats;
 
 public:
 

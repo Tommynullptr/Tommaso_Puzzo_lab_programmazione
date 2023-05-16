@@ -1,16 +1,8 @@
 # ninja log v5
-33	2413	7050709250673285	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/ChatMessage.cpp.obj	9c2b46e006a30784
-2	753	7050710542131926	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/SystemUser.cpp.obj	cc8038ffaea07c69
-3	758	7050710864252087	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/main.cpp.obj	c3e36dbf9106a1a3
-22	2373	7050709250249282	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Chat.cpp.obj	18010068e9298fd1
-758	874	7050710865388725	Tommaso_Puzzo_lab_programmazione.exe	69007ef67204af94
-50	2281	7050709249242074	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/ChatLog.cpp.obj	36057c4da6cc267a
-4	287	7053475175829315	build.ninja	7e467fa9fc1cc685
-20	879	7053481576881039	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/ChatLog.cpp.obj	36057c4da6cc267a
-12	906	7053481577173968	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Chat.cpp.obj	18010068e9298fd1
 4	922	7053481577335850	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/ChatMessage.cpp.obj	9c2b46e006a30784
+17	2212	7056010723662567	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/SystemUser.cpp.obj	cc8038ffaea07c69
+3	2140	7056010722883396	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/main.cpp.obj	c3e36dbf9106a1a3
+44	2017	7056010721683788	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Chat.cpp.obj	18010068e9298fd1
 922	1241	7053481580493164	Tommaso_Puzzo_lab_programmazione.exe	69007ef67204af94
 57	1973	7056010721165201	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/ChatLog.cpp.obj	36057c4da6cc267a
-44	2017	7056010721683788	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Chat.cpp.obj	18010068e9298fd1
-3	2140	7056010722883396	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/main.cpp.obj	c3e36dbf9106a1a3
-17	2212	7056010723662567	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/SystemUser.cpp.obj	cc8038ffaea07c69
+4	287	7059243818921722	build.ninja	7e467fa9fc1cc685
