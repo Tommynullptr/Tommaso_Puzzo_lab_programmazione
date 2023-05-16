@@ -13,6 +13,15 @@ class ChatLog {
 
 private:
     //smart pointer to list head of chats
+    unique_ptr<Chat> chats;
+
+public:
+
+        ChatLog();
+
+        virtual ~ChatLog();
+
+
 };
 
 

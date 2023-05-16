@@ -14,14 +14,25 @@ class Chat {
 
 private:
 
-    //smart pointers to users
     shared_ptr<SystemUser> user_1;
     shared_ptr<SystemUser> user_2;
 
-    //smart pointer to head list of chat messages
-    unique_ptr<ChatMessage> chat_messages;
+    unique_ptr<ChatMessage> chat_messages; //head of messages list (first message)
 
 public:
+
+    Chat(const shared_ptr<SystemUser> &user1, const shared_ptr<SystemUser> &user2);
+
+    virtual ~Chat();
+
+
+    const shared_ptr<SystemUser> &getUser1() const;
+
+    const shared_ptr<SystemUser> &getUser2() const;
+
+    const unique_ptr<ChatMessage> &getChatMessages() const;
+
+    void displayChat();
 };
 
 

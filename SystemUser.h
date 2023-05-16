@@ -41,6 +41,7 @@ public:
 
     string generateId();
 
+    void newMessage(const string &obj,const string &txt,const SystemUser &receiver); //TODO ripensare meglio al design
 };
 
 

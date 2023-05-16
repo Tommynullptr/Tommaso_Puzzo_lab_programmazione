@@ -82,3 +82,6 @@ string SystemUser::generateId() {
 
 }
 
+void SystemUser::newMessage(const string &obj,const string &txt,const SystemUser &receiver) {
+}
+
