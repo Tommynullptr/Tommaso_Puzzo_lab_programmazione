@@ -211,16 +211,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=Tommaso_Puzzo_lab_programmazione
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.12.1
+CMAKE_PROJECT_VERSION:STATIC=1.11.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=12
+CMAKE_PROJECT_VERSION_MINOR:STATIC=11
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=1
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -305,60 +305,6 @@ CMAKE_STRIP:FILEPATH=C:/Users/tomma/AppData/Local/JetBrains/CLion 2019.2.3/bin/m
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Directory under which to collect all populated content
-FETCHCONTENT_BASE_DIR:PATH=C:/Users/tomma/CLionProjects/Tommaso_Puzzo_lab_programmazione/cmake-build-debug/_deps
-
-//Disables all attempts to download or update content and assumes
-// source dirs already exist
-FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
-
-//Enables QUIET option for all content population
-FETCHCONTENT_QUIET:BOOL=ON
-
-//When not empty, overrides where to find pre-populated content
-// for googletest
-FETCHCONTENT_SOURCE_DIR_GOOGLETEST:PATH=
-
-//Enables UPDATE_DISCONNECTED behavior for all content population
-FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of googletest
-FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
-
-//Path to a library.
-GMOCK_LIBRARY:FILEPATH=GMOCK_LIBRARY-NOTFOUND
-
-//Path to a library.
-GMOCK_LIBRARY_DEBUG:FILEPATH=GMOCK_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-GMOCK_MAIN_LIBRARY:FILEPATH=GMOCK_MAIN_LIBRARY-NOTFOUND
-
-//Path to a library.
-GMOCK_MAIN_LIBRARY_DEBUG:FILEPATH=GMOCK_MAIN_LIBRARY_DEBUG-NOTFOUND
-
-//Use Abseil and RE2. Requires Abseil and RE2 to be separately
-// added to the build.
-GTEST_HAS_ABSL:BOOL=OFF
-
-//Path to a file.
-GTEST_INCLUDE_DIR:PATH=GTEST_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-GTEST_LIBRARY:FILEPATH=GTEST_LIBRARY-NOTFOUND
-
-//Path to a library.
-GTEST_LIBRARY_DEBUG:FILEPATH=GTEST_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
-
-//Path to a library.
-GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
-
-//The directory containing a CMake configuration file for GTest.
-GTest_DIR:PATH=GTest_DIR-NOTFOUND
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
@@ -419,7 +365,7 @@ gtest_disable_pthreads:BOOL=OFF
 
 //Use shared (DLL) run-time lib even when Google Test is built
 // as static lib.
-gtest_force_shared_crt:BOOL=ON
+gtest_force_shared_crt:BOOL=OFF
 
 //Build gtest with internal symbols hidden in shared libraries.
 gtest_hide_internal_symbols:BOOL=OFF
@@ -450,9 +396,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/tomma/CLionProjects/Tommaso_Puzzo_lab_prog
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=25
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=26
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=C:/Users/tomma/AppData/Local/JetBrains/CLion 2019.2.3/bin/cmake/win/x64/bin/cmake.exe
 //Path to cpack program executable.
@@ -596,7 +542,7 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Users/tomma/AppData/Local/JetBrains/CLion 2019.2.3/bin/cmake/win/x64/share/cmake-3.25
+CMAKE_ROOT:INTERNAL=C:/Users/tomma/AppData/Local/JetBrains/CLion 2019.2.3/bin/cmake/win/x64/share/cmake-3.26
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -626,25 +572,7 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/tomma/AppData/Local/Programs/Python/Python311/python.exe][cfound components: Interpreter ][v3.11.2()]
-//ADVANCED property for variable: GMOCK_LIBRARY
-GMOCK_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GMOCK_LIBRARY_DEBUG
-GMOCK_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GMOCK_MAIN_LIBRARY
-GMOCK_MAIN_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GMOCK_MAIN_LIBRARY_DEBUG
-GMOCK_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_INCLUDE_DIR
-GTEST_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_LIBRARY
-GTEST_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_LIBRARY_DEBUG
-GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_MAIN_LIBRARY
-GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
-GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/tomma/AppData/Local/Programs/Python/Python311/python.exe][cfound components: Interpreter ][v3.11.3()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
@@ -656,7 +584,7 @@ _Python_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
 _Python_EXECUTABLE:INTERNAL=C:/Users/tomma/AppData/Local/Programs/Python/Python311/python.exe
 //Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;2;64;;cp311-win_amd64;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib\site-packages;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib\site-packages
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;3;64;;cp311-win_amd64;;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib\site-packages;C:\Users\tomma\AppData\Local\Programs\Python\Python311\Lib\site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=17e60754ba664aeeb1e395efc1110407
 //Interpreter reason failure
 _Python_Interpreter_REASON_FAILURE:INTERNAL=

@@ -10,6 +10,8 @@
 #include <string>
 #include <memory>
 #include <sstream>
+#include <vector>
+#include "Chat.h"
 
 using namespace std;
 
@@ -21,6 +23,8 @@ private:
     string name;
     const string id;
     static bool id_check[100];
+
+    vector<shared_ptr<Chat>> chats;
 
 public:
 
@@ -41,7 +45,10 @@ public:
 
     string generateId();
 
-    void newMessage(const string &obj,const string &txt,const SystemUser &receiver); //TODO ripensare meglio al design
+    void newMessage(const string &obj,const SystemUser &receiver);
+
+    shared_ptr<Chat> findOrCreateChat(const shared_ptr<SystemUser>& user1, const shared_ptr<SystemUser>& user2);
+
 };
 
 

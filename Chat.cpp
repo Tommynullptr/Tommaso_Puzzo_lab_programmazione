@@ -21,27 +21,21 @@ const shared_ptr<SystemUser> &Chat::getUser2() const {
 
 }
 
-const unique_ptr<ChatMessage> &Chat::getChatMessages() const {
-
-    return chat_messages;
-
-}
-
 void Chat::displayChat() {
-
     cout << "Chat between " << user_1->getName() << " and " << user_2->getName() << endl;
 
-    unique_ptr<ChatMessage> *current_message = &chat_messages;
-
-    while (current_message != nullptr) {
-
-        cout << "Object: " << (*current_message)->getObject() << endl;
-        cout << "Text: " << (*current_message)->getText() << endl;
-        cout << "Sender: " << (*current_message)->getSender()->getName() << endl;
-        cout << "Receiver: " << (*current_message)->getReceiver()->getName() << endl;
-
-        current_message = &(*current_message)->getNext();
-
+    for (const auto& message : messages) {
+        cout << "Object: " << message->getObject() << endl;
+        cout << "Text: " << message->getText() << endl;
+        cout << "Sender: " << message->getSender()->getName() << endl;
+        cout << "Receiver: " << message->getReceiver()->getName() << endl;
     }
+}
+
+
+void Chat::addMessage(const shared_ptr<ChatMessage>& message) {
+
+    messages.push_back(message);
 
 }
+

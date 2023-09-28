@@ -4,9 +4,9 @@
 
 #include "ChatMessage.h"
 
-ChatMessage::ChatMessage(const string &object, const string &text, const shared_ptr<SystemUser> &sender, const shared_ptr<SystemUser> &receiver) : object(object), text(text), sender(sender), receiver(receiver) {
+ChatMessage::ChatMessage(const string &object, const shared_ptr<SystemUser> &sender, const shared_ptr<SystemUser> &receiver) : object(object), sender(sender), receiver(receiver) {
 
-    ChatMessage::addMessagge()
+    text = "";
 
 }
 
@@ -18,12 +18,6 @@ ChatMessage::~ChatMessage() {
 const string &ChatMessage::getObject() const {
 
     return object;
-
-}
-
-const string &ChatMessage::getText() const {
-
-    return text;
 
 }
 
@@ -39,14 +33,18 @@ const shared_ptr<SystemUser> &ChatMessage::getReceiver() const {
 
 }
 
-const unique_ptr<ChatMessage> &ChatMessage::getNext() const {
+void ChatMessage::setText() {
 
-    return next;
+    string new_text;
+    cin >> new_text;
+
+    this->text = new_text;
+
+}
+
+const string &ChatMessage::getText() const {
+
+    return text;
 
 }
 
-void ChatMessage::setNext(const unique_ptr<ChatMessage> &next) {
-
-    ChatMessage::next = next;
-
-}

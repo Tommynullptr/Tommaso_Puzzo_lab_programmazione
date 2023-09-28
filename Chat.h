@@ -17,7 +17,7 @@ private:
     shared_ptr<SystemUser> user_1;
     shared_ptr<SystemUser> user_2;
 
-    unique_ptr<ChatMessage> chat_messages; //head of messages list (first message)
+    vector<shared_ptr<ChatMessage>> messages;
 
 public:
 
@@ -30,9 +30,10 @@ public:
 
     const shared_ptr<SystemUser> &getUser2() const;
 
-    const unique_ptr<ChatMessage> &getChatMessages() const;
-
     void displayChat();
+
+    void addMessage(const shared_ptr<ChatMessage>& message);
+
 };
 
 

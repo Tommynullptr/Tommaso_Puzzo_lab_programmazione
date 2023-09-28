@@ -19,26 +19,23 @@ private:
     shared_ptr<SystemUser> sender;
     shared_ptr<SystemUser> receiver;
 
-    unique_ptr<ChatMessage> next;
-
 public:
 
-    ChatMessage(const string &object, const string &text, const shared_ptr<SystemUser> &sender, const shared_ptr<SystemUser> &receiver);
+    ChatMessage(const string &object, const shared_ptr<SystemUser> &sender, const shared_ptr<SystemUser> &receiver);
 
     virtual ~ChatMessage();
 
 
     const string &getObject() const;
 
-    const string &getText() const;
-
     const shared_ptr<SystemUser> &getSender() const;
 
     const shared_ptr<SystemUser> &getReceiver() const;
 
-    const unique_ptr<ChatMessage> &getNext() const;
+    void setText();
 
-    void setNext(const unique_ptr<ChatMessage> &next);
+    const string &getText() const;
+
 };
 
 

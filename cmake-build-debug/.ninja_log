@@ -5,4 +5,13 @@
 44	2017	7056010721683788	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Chat.cpp.obj	18010068e9298fd1
 922	1241	7053481580493164	Tommaso_Puzzo_lab_programmazione.exe	69007ef67204af94
 57	1973	7056010721165201	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/ChatLog.cpp.obj	36057c4da6cc267a
-4	287	7059243818921722	build.ninja	7e467fa9fc1cc685
+4	287	7164729872248957	build.ninja	7e467fa9fc1cc685
+79	6645	7164746059207843	tests/CMakeFiles/tests.dir/runAllTests.cpp.obj	5d00e713655123b3
+203	6652	7164746059257851	tests/googletest-main/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	652517a21dc9c0a2
+31	6943	7164746062207827	tests/CMakeFiles/tests.dir/SystemUserFixture.cpp.obj	55971840d99bebef
+2	7087	7164746063727744	tests/CMakeFiles/tests.dir/ChatMessageFixture.cpp.obj	61a7f439f469f5f5
+132	21383	7164746206403615	tests/googletest-main/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	68874ade5f8f4045
+21386	26971	7164746262566132	lib/libgtestd.a	1bf92209b562dc2a
+26972	27088	7164746263766019	lib/libgtest_maind.a	5de5d53f120e93d1
+38	1070	7164957268258939	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Observer.cpp.obj	9faf4ff02725d09d
+1071	4230	7164957300137479	CMakeFiles/Tommaso_Puzzo_lab_programmazione.dir/Subject.cpp.obj	bb44601ce3a2f5df
