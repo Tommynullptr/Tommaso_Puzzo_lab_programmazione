@@ -4,7 +4,11 @@
 
 #include "Chat.h"
 
-Chat::Chat(const shared_ptr<SystemUser> &user1, const shared_ptr<SystemUser> &user2) : user_1(user1), user_2(user2) {}
+Chat::Chat(const shared_ptr<SystemUser> &user1, const shared_ptr<SystemUser> &user2) : user_1(user1), user_2(user2) {
+
+    messages = vector<shared_ptr<ChatMessage>>();
+
+}
 
 Chat::~Chat() {}
 

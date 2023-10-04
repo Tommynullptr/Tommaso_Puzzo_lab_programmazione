@@ -16,6 +16,8 @@ int main() {
     cout << b->getName() << endl;
     cout << b->getId() << endl;
 
+    a->newMessage("Hello", *b);
+
 
     return 0;
 
